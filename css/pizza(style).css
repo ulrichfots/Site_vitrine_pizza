@@ -1,0 +1,170 @@
+/*  l'en-tête du corps*/
+.photo img{
+    width: 100px;
+    height: 100px;
+}
+.photo:hover {
+    transform: scale(1.3);
+  }
+header{
+    border-bottom: 3px red solid;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 125px;
+    height: 20px;
+    margin-top: 40px;
+}
+a:visited{
+color: black;
+}
+
+/*section de classe une  */
+
+.pizza img{
+    width: 180px;
+    height: 180px;
+}
+
+.un{
+    border-bottom: 3px red solid;
+    height: 250px;
+}
+.texte{
+    border: 3px red solid;
+    background-color: white;
+    width:240px;
+    height: 60px;
+    border-radius: 20px/10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    z-index: 5;
+}
+
+.un{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizza:hover {
+    transform: rotate(260deg);
+  }
+
+/*section de classe deux  */
+.pizza1 img, .pizza2 img, .pizza3 img, .pizza4 img, .pizza5 img, .pizza6 img, .pizza7 img, .pizza8 img{
+    width: 200px;
+    height: 150px;
+}
+
+ .pizza8 img:hover {
+    transform: scale(1.3);
+  }
+
+.pizza3 img{
+    height: 100px;
+}
+.pizza1, .pizza2, .pizza3, .pizza4, .pizza5, .pizza6, .pizza7, .pizza8{
+    border: 3px red solid;
+    width: 200px;
+    height: auto;
+    border-radius: 10px/10px;
+    
+}
+
+.deux{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.deux{
+    width: 1000px;
+    height: 850px;
+text-align: center;
+    margin-left: 170px;
+}
+
+
+/* section de classe trois */
+
+.trois{
+    border-top: 3px red solid;
+    height: 80px;
+}
+.trois img{
+    width: 100px;
+    height: 90px;
+}
+
+.trois{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*footer du corps */
+
+.footer{
+    background-color: red;
+    text-align: center;
+    height: 100px;
+}
+
+
+
+/* style de la phrase */
+.phrase{
+    text-align: center;
+}
+
+/* les ingredients */
+h2{
+    text-decoration:underline;
+}
+
+/* les h1 */
+h1{
+    font-family:cursive;
+}
+
+
+
+
+
+
+
+
+
+
+/*  partie reservé au style du formulaire ou contact*/
+.nom1, .prenom1, .telephone1, .mail1,.adresse1{
+    border: 3px red solid;
+    width: 175px;
+    height: auto;
+    border-radius: 10px/10px;
+}
+.formulaire{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nom, .prenom, .telephone, .mail,.adresse,.domicile, .creneau{
+    display: flex;
+   justify-content: space-between;
+}
